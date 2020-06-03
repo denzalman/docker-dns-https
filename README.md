@@ -15,7 +15,7 @@ docker run -it -d \
     --restart=always \
     -p 53:53/udp \
     -p 53:53 \
-denzal/dns-over-https
+denzal/dns-over-https google
 ```
 Build your own container from the source:
 ```bash
